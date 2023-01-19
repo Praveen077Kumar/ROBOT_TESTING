@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.6 on linux)" generated="20230103 10:35:45.642" rpa="false" schemaversion="3">
+<suite id="s1" name="RobotFramework" source="/home/giitian/Music/Python/RobotFramework">
+<suite id="s1-s1" name="Tests" source="/home/giitian/Music/Python/RobotFramework/Tests">
+<suite id="s1-s1-s1" name="TC 001 Start close browser" source="/home/giitian/Music/Python/RobotFramework/Tests/TC_001_Start_close_browser.robot">
+<test id="s1-s1-s1-t1" name="TC_001 startBrowser and close browser" line="11">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230103 10:35:45.880" level="INFO">Opening browser 'Chrome' to base url 'https://www.testingworld.com/testings'.</msg>
+<status status="PASS" starttime="20230103 10:35:45.879" endtime="20230103 10:35:50.693"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230103 10:35:50.693" endtime="20230103 10:35:50.757"/>
+</kw>
+<status status="PASS" starttime="20230103 10:35:45.877" endtime="20230103 10:35:50.760"/>
+</test>
+<status status="PASS" starttime="20230103 10:35:45.683" endtime="20230103 10:35:50.765"/>
+</suite>
+<status status="PASS" starttime="20230103 10:35:45.677" endtime="20230103 10:35:50.781"/>
+</suite>
+<status status="PASS" starttime="20230103 10:35:45.647" endtime="20230103 10:35:50.791"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="RobotFramework">RobotFramework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Tests">RobotFramework.Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="TC 001 Start close browser">RobotFramework.Tests.TC 001 Start close browser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
