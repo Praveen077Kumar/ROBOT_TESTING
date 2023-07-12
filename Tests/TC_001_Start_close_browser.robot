@@ -5,7 +5,7 @@ Library  SeleniumLibrary
 *** Variables ***
 ${Browser}  Chrome
 ${URL}  https://www.testingworld.com/testings
-                                                #this section is for the variables to define 
+                                            #this section is for the variables to define 
 
 *** Test Cases ***
 TC_001 startBrowser and close browser   #this section is for the test cases
