@@ -20,3 +20,4 @@ Robot First Test Case With argument of Resource file
 Robot First Test Case With "RETURN" arguments of Resource file
     ${res}=  Start Browser and Maximize Window with RETURN arguments  http://www.thetestingworld.com/testings  Chrome
      Input Text  xpath://input[@name="fld_username"]  ${res}
+     Close Browser
