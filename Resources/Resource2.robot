@@ -17,3 +17,9 @@ close browser Window
     log  ${title}
     Close browser
 
+
+Before Each Test Suite
+    Log  Before Each Test Suite 
+
+After Each Test Suite
+    Log  After Each Test Suite
